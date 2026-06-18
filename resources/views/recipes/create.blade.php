@@ -8,7 +8,7 @@
     <div class="container">
         <h1>Add Recipe</h1>
 
-        <form action="/recipes" method="POST">
+        <form action="/recipes" method="POST" class="page-form">
             @csrf
 
             <div>

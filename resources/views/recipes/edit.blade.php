@@ -8,7 +8,7 @@
     <div class="container">
         <h1>Edit Recipe</h1>
 
-        <form action="/recipes/{{ $recipe->id }}" method="POST">
+        <form action="/recipes/{{ $recipe->id }}" method="POST" class="page-form">
             @csrf
             @method('PUT')
 
