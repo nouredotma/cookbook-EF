@@ -15,7 +15,7 @@
         padding: 10px;
         margin-bottom: 20px;
     }
-    .btn {
+    .recipe-btn {
         display: inline-block;
         padding: 8px 16px;
         background: #ff4500;
@@ -53,4 +53,16 @@
         display: inline;
         margin: 0;
     }
+    .search-form {
+        max-width: 900px;
+        margin: 0 auto 20px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+    .search-form div { margin-bottom: 0; }
+    .search-form input, .search-form select { width: auto; min-width: 180px; }
 </style>

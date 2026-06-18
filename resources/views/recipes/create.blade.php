@@ -40,7 +40,7 @@
                 @error('description')<p class="error">{{ $message }}</p>@enderror
             </div>
 
-            <button type="submit" class="btn">Save</button>
+            <button type="submit" class="recipe-btn">Save</button>
         </form>
     </div>
 </body>
